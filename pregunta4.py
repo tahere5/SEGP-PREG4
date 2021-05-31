@@ -32,7 +32,6 @@ print("valores unicos de la tablas")
 print(Y.unique())
 #cambiar de texto a numero
 Y=Y.replace({"LOHARU":'0',"NUH":'0',"SAFIDON":'0'})
-print("_______________________________________________________")
 print("valores unicos de la tablas")
 print(Y.unique())
 #normalizando
