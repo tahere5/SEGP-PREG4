@@ -6,9 +6,7 @@ Created on Sun May 29 23:45:19 2021
 """
 
 import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
-import seaborn as sns
 dataset=pd.read_csv("audit_risk.csv")
 #dataset=pd.read_csv("trial.csv")
 print( dataset.head())
