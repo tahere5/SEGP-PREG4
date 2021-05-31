@@ -8,7 +8,6 @@ Created on Sun May 29 23:45:19 2021
 import numpy as np
 import pandas as pd
 dataset=pd.read_csv("audit_risk.csv")
-#dataset=pd.read_csv("trial.csv")
 print( dataset.head())
 print("columnas del dataset ")
 print(dataset.columns)
